@@ -1,1 +1,1 @@
-A Todo App made with React. 
+A To-do App made with React. 
