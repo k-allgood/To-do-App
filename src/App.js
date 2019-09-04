@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import "./App.css";
 import TodoList from "./components/TodoList";
 import AddItem from "./components/AddItem";
@@ -53,14 +53,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app">
-        <AddItem addItem={this.addItem} />
-        <TodoList
-          allItems={this.state.allItems}
-          strikeThrough={this.strikeThrough}
-          deleteItem={this.deleteItem}
-        />
-      </div>
+      <Fragment>
+        <p>A simple and efficient to-do list made with React and CSS.</p>
+        <div className="app">
+          <AddItem addItem={this.addItem} />
+          <TodoList
+            allItems={this.state.allItems}
+            strikeThrough={this.strikeThrough}
+            deleteItem={this.deleteItem}
+          />
+        </div>
+      </Fragment>
     );
   }
 }

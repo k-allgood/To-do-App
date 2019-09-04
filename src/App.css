@@ -8,6 +8,10 @@ body {
   background-color: whitesmoke;
 }
 
+p {
+  margin: 2% 0 0 2%;
+}
+
 form {
   background: #48a4de;
   color: #f0f0f0;
@@ -35,7 +39,7 @@ input[name="checkbox"]:checked {
 
 .app {
   max-width: 600px;
-  margin: 2% 0 0 2%;
+  margin: 1% 0 0 2%;
   background-color: whitesmoke;
   border: 1px solid #333;
   color: #333;
