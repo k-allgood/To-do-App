@@ -54,7 +54,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <p>A simple and efficient to-do list made with React and CSS.</p>
+        <p>A simple and fast to-do list made with React and CSS.</p>
         <div className="app">
           <AddItem addItem={this.addItem} />
           <TodoList
